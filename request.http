@@ -1,0 +1,24 @@
+### REGISTER
+POST http://localhost:3000/v1/register
+Content-Type: application/json
+
+{
+    "name": "",
+    "email": "",
+    "password": ""
+}
+
+### LOGIN
+POST http://localhost:3000/v1/login
+Content-Type: application/json
+
+{
+    "email": "",
+    "password": ""
+}
+
+### GET NOTIFICATION, (Insomnia / Postman)
+GET http://localhost:3000/v1/notification
+Authorization: 
+
+
